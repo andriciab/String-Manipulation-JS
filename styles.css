@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Comic Neue", sans-serif;
+}
+
+body {
+  background-color: rgb(252, 247, 240);
+}
+
+.container {
+  max-width: 600px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+input {
+  width: 80%;
+  max-width: 500px;
+  height: 36px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-family: inherit;
+}
+
+.btns-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  padding: 2rem 0;
+}
+
+.btn {
+  width: 180px;
+  height: 42px;
+  padding: 0.5rem;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid rgb(178, 178, 178);
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(233, 232, 232);
+}
+
+.result-title,
+.result {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.result-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.result {
+  font-size: 1.1rem;
+}
+
+img {
+  width: 320px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  padding-top: 8px;
+}
